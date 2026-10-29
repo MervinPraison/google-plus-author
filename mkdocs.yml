@@ -6,7 +6,7 @@ repo_name: MervinPraison/google-plus-author
 repo_url: https://github.com/MervinPraison/google-plus-author
 
 theme:
-  name: material
+  name: !ENV [PRAISONAI_THEME, material]
   palette:
     - scheme: slate
       primary: red
